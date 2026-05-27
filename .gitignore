@@ -1,0 +1,14 @@
+# Merged full model (2.1GB — too large for GitHub)
+tinyllama-alpaca-merged/
+
+# Intermediate training checkpoints (optimizer states, rng, etc.)
+tinyllama-alpaca-sft/checkpoint-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Zone identifiers (Windows WSL artifacts)
+*.Identifier

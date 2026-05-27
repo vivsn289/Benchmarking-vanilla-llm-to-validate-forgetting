@@ -1,0 +1,9 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading base model...
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   0%|          | 1/201 [00:00<01:08,  2.92it/s]Loading weights:  20%|█▉        | 40/201 [00:00<00:01, 99.08it/s]Loading weights:  29%|██▉       | 59/201 [00:00<00:01, 122.40it/s]Loading weights:  38%|███▊      | 76/201 [00:00<00:01, 114.94it/s]Loading weights:  47%|████▋     | 94/201 [00:00<00:00, 115.95it/s]Loading weights:  54%|█████▎    | 108/201 [00:01<00:02, 44.43it/s]Loading weights:  60%|██████    | 121/201 [00:01<00:01, 53.15it/s]Loading weights:  66%|██████▌   | 132/201 [00:02<00:01, 51.51it/s]Loading weights:  74%|███████▎  | 148/201 [00:02<00:00, 65.75it/s]Loading weights:  83%|████████▎ | 166/201 [00:02<00:00, 80.07it/s]Loading weights:  92%|█████████▏| 184/201 [00:02<00:00, 93.51it/s]Loading weights: 100%|██████████| 201/201 [00:02<00:00, 78.96it/s]
+Loading LoRA adapter...
+Merging adapter into base model...
+Saving merged model to ./tinyllama-alpaca-merged...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.15s/it]Writing model shards: 100%|██████████| 1/1 [00:03<00:00,  3.16s/it]
+Done.
